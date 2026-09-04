@@ -1,0 +1,74 @@
+.ew-forge-modal {
+  --ew-gold: #b89b5e;
+}
+
+.ew-forge-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.ew-forge-brand img {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.ew-forge-brand h2,
+.ew-forge-brand p {
+  margin: 0;
+}
+
+.ew-forge-drop {
+  border: 2px dashed var(--ew-gold);
+  border-radius: 14px;
+  padding: 22px 16px;
+  text-align: center;
+  background: color-mix(in srgb, var(--ew-gold) 10%, transparent);
+}
+
+.ew-forge-file-input {
+  display: none;
+}
+
+.ew-forge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.ew-forge-actions button {
+  min-height: 42px;
+}
+
+.ew-forge-summary {
+  margin: 16px 0;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--background-secondary);
+}
+
+.ew-forge-summary ul {
+  margin-bottom: 0;
+}
+
+.ew-forge-warning {
+  color: var(--text-warning);
+}
+
+.ew-forge-success {
+  color: var(--text-success);
+}
+
+@media (max-width: 600px) {
+  .ew-forge-modal {
+    width: calc(100vw - 24px);
+  }
+
+  .ew-forge-actions button {
+    flex: 1 1 100%;
+  }
+}

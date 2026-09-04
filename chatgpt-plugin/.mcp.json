@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ew-knowledge-vault": {
+      "command": "python3",
+      "args": [
+        "./scripts/vault_mcp.py"
+      ]
+    }
+  }
+}

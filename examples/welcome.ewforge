@@ -1,0 +1,26 @@
+{
+  "format": "ew-knowledge-forge",
+  "format_version": "1.0",
+  "package_id": "ewf-20260904T030515Z-f95e936e",
+  "created_at": "2026-09-04T03:05:15.993141+00:00",
+  "title": "EW Knowledge Forge Welcome / EW 具象知識鍛造器歡迎包",
+  "target_root": "EW-Knowledge",
+  "package_type": "incremental",
+  "notes": [
+    {
+      "path": "00-Home.md",
+      "knowledge_id": "ew-welcome-home",
+      "version": "1.0.0",
+      "sha256": "386e7a9125528b916c11c13d51793013b91a5c8ad28c4f8590fd0ce7c202eacd",
+      "content": "---\nknowledge_id: ew-welcome-home\ntitle: EW Knowledge Forge Welcome\nproject: EW Knowledge Forge\ndomain: onboarding\nnote_type: project\nversion: 1.0.0\nstatus: current\ncreated: 2026-09-04\nupdated: 2026-09-04\new_managed: true\nup:\n  - \"[[00-Home]]\"\nrelated:\n  - \"[[Welcome]]\"\nreplaces: []\nsource_refs: []\ntags:\n  - ew/knowledge-forge\n---\n# EW Knowledge Forge Welcome\n\nThis hub confirms that the one-click knowledge package was imported successfully.\n\n## Related\n\n- [[Welcome]]\n"
+    },
+    {
+      "path": "Welcome.md",
+      "knowledge_id": "ew-welcome-note",
+      "version": "1.0.0",
+      "sha256": "3f3193ddffa753988993f40bd22b4aad17697b99c74bddddc1d651d20271746d",
+      "content": "---\nknowledge_id: ew-welcome-note\ntitle: Welcome to EW Embodied Knowledge Forge\nproject: EW Knowledge Forge\ndomain: onboarding\nnote_type: concept\nversion: 1.0.0\nstatus: current\ncreated: 2026-09-04\nupdated: 2026-09-04\new_managed: true\nup:\n  - \"[[00-Home]]\"\nrelated: []\nreplaces: []\nsource_refs: []\ntags:\n  - ew/knowledge-forge\n---\n# Welcome to EW Embodied Knowledge Forge\n\nYour ChatGPT-generated knowledge is now a linked, searchable Obsidian note.\n"
+    }
+  ],
+  "attachments": []
+}

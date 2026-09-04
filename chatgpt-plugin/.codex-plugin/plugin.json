@@ -1,0 +1,42 @@
+{
+  "name": "ew-obsidian-knowledge-forge",
+  "version": "0.1.0",
+  "description": "Turn ChatGPT conversations and generated documents into a one-click Obsidian knowledge package.",
+  "author": {
+    "name": "Embodied Worker Co., Ltd.",
+    "email": "pohsun@embodiedworker.com",
+    "url": "https://www.embodiedworker.com"
+  },
+  "homepage": "https://www.embodiedworker.com",
+  "license": "Proprietary",
+  "keywords": [
+    "obsidian",
+    "knowledge-graph",
+    "chat-history",
+    "document-organization",
+    "markdown"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "EW 具象知識鍛造器",
+    "shortDescription": "聊完即產生可一鍵匯入 Obsidian 的知識包。",
+    "longDescription": "EW 具象知識鍛造器（EW Embodied Knowledge Forge）把 ChatGPT 對話與生成文件自動整理成 Markdown、標籤、版本、索引與雙向關聯，交付單一 .ewforge 知識包；使用者在手機 Obsidian 選取檔案後即可安全匯入，不必設定 API 金鑰或理解 YAML。",
+    "developerName": "Embodied Worker Co., Ltd.",
+    "category": "Productivity",
+    "capabilities": [
+      "Document organization",
+      "Knowledge graph",
+      "Obsidian export"
+    ],
+    "websiteURL": "https://www.embodiedworker.com",
+    "defaultPrompt": [
+      "把這段聊天整理成 EW 知識包。",
+      "把這些生成文件格式化並匯出給 Obsidian。",
+      "將新內容連結到既有主題後產生增量知識包。"
+    ],
+    "brandColor": "#B89B5E",
+    "composerIcon": "./assets/knowledge-forge.svg",
+    "logo": "./assets/embodied-worker-logo.jpeg"
+  }
+}

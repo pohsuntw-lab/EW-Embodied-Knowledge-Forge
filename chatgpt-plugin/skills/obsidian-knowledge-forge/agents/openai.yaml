@@ -1,0 +1,8 @@
+interface:
+  display_name: "EW 具象知識鍛造器"
+  short_description: "把每次聊天鍛造成可一鍵匯入 Obsidian 的知識包"
+  brand_color: "#B89B5E"
+  default_prompt: "使用 $obsidian-knowledge-forge 把這次聊天或生成文件整理為中英文相容、可一鍵匯入 Obsidian 的 .ewforge 知識包。"
+
+policy:
+  allow_implicit_invocation: true
