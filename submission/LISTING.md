@@ -10,7 +10,9 @@ Productivity
 
 ## Short description
 
-Turn ChatGPT conversations into one-click Obsidian knowledge packages. / 將 ChatGPT 聊天轉成可一鍵匯入 Obsidian 的知識包。
+Forge chats for Obsidian
+
+將聊天鍛造成 Obsidian 知識。
 
 ## Long description
 

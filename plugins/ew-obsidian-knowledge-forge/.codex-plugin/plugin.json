@@ -18,9 +18,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "EW Embodied Knowledge Forge / 具象知識鍛造器",
-    "shortDescription": "Chat to a one-click Obsidian package / 聊完即產生 Obsidian 知識包。",
-    "longDescription": "EW Embodied Knowledge Forge turns ChatGPT conversations and generated documents into linked, versioned Markdown delivered as one .ewforge package. 具象知識鍛造器會自動整理聊天與生成文件、建立標籤、版本、索引與雙向關聯，使用者不必設定 API 金鑰或理解 YAML。",
+    "displayName": "EW Knowledge Forge / 具象知識鍛造器",
+    "shortDescription": "Forge chats for Obsidian",
+    "longDescription": "EW Embodied Knowledge Forge turns ChatGPT conversations and generated documents into structured, linked, versioned Markdown inside one portable .ewforge package. ChatGPT performs the knowledge reasoning—extracting concepts, decisions, requirements, evidence, open questions, and relationships—while the offline Obsidian companion validates, previews, backs up, and writes the package into the user's Vault. No separate OpenAI API key or API usage billing is required. / 具象知識鍛造器由 ChatGPT 負責理解、分類、建立關聯與版本，輸出單一 .ewforge；Obsidian 離線外掛負責驗證、預覽、備份與安全寫入 Vault。無須另外申請 OpenAI API 金鑰或支付 API 用量費。",
     "developerName": "Embodied Worker Co., Ltd.",
     "category": "Productivity",
     "capabilities": [
@@ -30,15 +30,12 @@
     ],
     "websiteURL": "https://www.embodiedworker.com",
     "defaultPrompt": [
-      "Turn this conversation into an EW Knowledge Package for Obsidian.",
-      "Format these generated documents and export them to Obsidian.",
-      "Link this new material to an existing topic and create an incremental package.",
-      "把這段聊天整理成 EW 知識包。",
-      "把這些生成文件格式化並匯出給 Obsidian。",
-      "將新內容連結到既有主題後產生增量知識包。"
+      "Turn this conversation into an EW Knowledge Package for Obsidian. / 把這段聊天整理成 EW Obsidian 知識包。",
+      "Format these generated documents and export them to Obsidian. / 把生成文件格式化並匯出給 Obsidian。",
+      "Link this material to an existing topic and create an incremental package. / 將內容連結到既有主題並產生增量知識包。"
     ],
     "brandColor": "#B89B5E",
-    "composerIcon": "./assets/knowledge-forge.svg",
-    "logo": "./assets/embodied-worker-logo.jpeg"
+    "composerIcon": "./assets/knowledge-forge.png",
+    "logo": "./assets/embodied-worker-logo.png"
   }
 }

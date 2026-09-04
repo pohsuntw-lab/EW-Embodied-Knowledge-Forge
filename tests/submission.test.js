@@ -9,7 +9,10 @@ const skill = fs.readFileSync(path.join(pluginRoot, "skills", "obsidian-knowledg
 const tests = fs.readFileSync(path.join(root, "submission", "TEST_CASES.md"), "utf8");
 
 assert.equal(manifest.version, "0.2.0");
-assert.equal(manifest.interface.displayName, "EW Embodied Knowledge Forge / 具象知識鍛造器");
+assert.equal(manifest.interface.displayName, "EW Knowledge Forge / 具象知識鍛造器");
+assert.ok(manifest.interface.displayName.length <= 30, "OpenAI plugin name must be at most 30 characters");
+assert.ok(manifest.interface.shortDescription.length <= 30, "OpenAI subtitle must be at most 30 characters");
+assert.ok(manifest.interface.defaultPrompt.length <= 3, "OpenAI accepts at most three default prompts");
 assert.equal(manifest.skills, "./skills/");
 assert.ok(!Object.hasOwn(manifest, "mcpServers"));
 assert.ok(!fs.existsSync(path.join(pluginRoot, ".mcp.json")));
