@@ -2,7 +2,7 @@
   <img src="assets/embodied-worker-logo.jpeg" width="280" alt="Embodied Worker logo">
 </p>
 
-# EW Embodied Knowledge Forge / 具象知識鍛造器
+# EW_knowledge_forge
 
 Turn ChatGPT conversations and documents into a standard Obsidian Vault ZIP. Download, unzip, and open the folder as a Vault—no Obsidian community plugin or separate API key is required.
 
@@ -10,7 +10,7 @@ Turn ChatGPT conversations and documents into a standard Obsidian Vault ZIP. Dow
 
 ## English
 
-### Default workflow in v0.3.0
+### Default workflow in v0.4.0
 
 1. Finish a discussion or provide source documents in ChatGPT.
 2. Use EW Knowledge Forge to extract durable concepts, decisions, requirements, evidence, processes, and relationships.
@@ -36,7 +36,7 @@ Every generated ZIP must contain one Vault folder, linked Markdown notes, a hub 
 
 ## 中文
 
-### v0.3.0 預設流程
+### v0.4.0 預設流程
 
 1. 在 ChatGPT 完成討論，或提供需要整理的來源文件。
 2. 使用「具象知識鍛造器」提取可長期使用的概念、決策、需求、證據、流程與關聯。
@@ -93,4 +93,3 @@ ChatGPT 是知識鍛造場；Obsidian 是使用者本機的知識倉庫與知識
 The Embodied Worker name, elephant mark, and supplied artwork are trademarks or proprietary brand assets of Embodied Worker Co., Ltd. Their inclusion does not grant reuse rights.
 
 Embodied Worker 名稱、金色大象圖樣及提供的商標素材，均為具象職人股份有限公司的商標或專有品牌資產；收錄於本專案不代表授權第三方使用。
-

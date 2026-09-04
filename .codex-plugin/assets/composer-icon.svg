@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="EW Obsidian Knowledge Forge">
+  <rect width="512" height="512" rx="96" fill="#0B1F33"/>
+  <path d="M128 144h256M128 256h256M128 368h256M160 144l64 112-64 112M352 144l-64 112 64 112" fill="none" stroke="#B89B5E" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="128" cy="144" r="28" fill="#F3E3B2"/>
+  <circle cx="384" cy="144" r="28" fill="#F3E3B2"/>
+  <circle cx="224" cy="256" r="32" fill="#D2B36C"/>
+  <circle cx="288" cy="256" r="32" fill="#D2B36C"/>
+  <circle cx="128" cy="368" r="28" fill="#F3E3B2"/>
+  <circle cx="384" cy="368" r="28" fill="#F3E3B2"/>
+</svg>

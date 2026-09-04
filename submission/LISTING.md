@@ -2,7 +2,7 @@
 
 ## Name
 
-EW Embodied Knowledge Forge / 具象知識鍛造器
+EW_knowledge_forge
 
 ## Category
 
@@ -16,13 +16,13 @@ Forge chats for Obsidian
 
 ## Long description
 
-EW Embodied Knowledge Forge turns conversations, generated documents, and uploaded source files into structured Markdown knowledge for Obsidian. It creates stable IDs, metadata, versions, topic hubs, source references, and meaningful links, validates the result, and delivers one portable `.ewforge` package.
+EW_knowledge_forge turns conversations, generated documents, and uploaded source files into a validated Obsidian Vault. For complete projects, it works in bounded batches, delivers mergeable ZIP volumes, and maintains a compact `FORGE-CHECKPOINT.md` so a new ChatGPT conversation can continue without pretending to see the user's entire history at once.
 
-Start in ChatGPT, where the work already happens, then import the finished knowledge package into Obsidian with the companion mobile-compatible importer. No separate OpenAI API key or API usage billing is required. Existing ChatGPT subscriptions, Obsidian Sync, and other optional services may have their own charges.
+Start in ChatGPT, download each validated Vault ZIP, extract all volumes into the same Vault folder, and open that folder in Obsidian. No Obsidian community plugin or separate API key is required.
 
-具象知識鍛造器會把聊天、生成文件與使用者提供的來源檔案整理成適合 Obsidian 的 Markdown 知識，建立穩定識別碼、屬性、版本、主題索引、來源引用與有意義的關聯，通過驗證後交付單一 `.ewforge` 知識包。
+具象知識鍛造器會把對話、生成文件與來源檔案整理成經驗證的 Obsidian Vault。完整專案會分批處理、交付可合併的 ZIP 分卷，並使用 `FORGE-CHECKPOINT.md` 讓新對話安全續作，不會假裝 ChatGPT 能一次看見全部歷史。
 
-使用者先在原本使用的 ChatGPT 中完成討論，再透過支援手機的 Obsidian 匯入器接收成果，不需要另外申請 OpenAI API 金鑰或支付 API 用量費。既有 ChatGPT 方案、Obsidian Sync 與其他選用服務仍可能各自收費。
+使用者在 ChatGPT 中逐批完成知識鍛造，下載並解壓各個 Vault ZIP 到同一資料夾，再由 Obsidian 開啟該資料夾。不需要 Obsidian 社群外掛或額外 API 金鑰。
 
 ## Workflow responsibilities / 流程分工
 

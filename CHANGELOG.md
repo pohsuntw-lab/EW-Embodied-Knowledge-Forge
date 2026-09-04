@@ -1,5 +1,13 @@
 # Changelog / 更新紀錄
 
+## 0.4.0 — 2026-09-04
+
+- Renamed the public display name to **EW_knowledge_forge** while preserving the existing internal plugin identity.
+- Added resumable, batch-by-batch forging for complete ChatGPT projects.
+- Added portable `FORGE-CHECKPOINT.md` state for continuing safely in a new conversation.
+- Added incremental Obsidian Vault ZIP volumes, source coverage checks, merge instructions, and recovery rules.
+- Made full-fidelity knowledge preservation the default and prevented outline-only delivery.
+
 ## 0.3.0 — 2026-09-04
 
 - Changed the default deliverable from `.ewforge` to a standard Obsidian Vault ZIP.
@@ -28,4 +36,3 @@
 - Added the original `.ewforge` importer and knowledge-package generator.
 - Added safe-path validation, SHA-256 verification, conflict copies, and optional version backups.
 - Added the official Embodied Worker elephant brand artwork.
-

@@ -1,7 +1,7 @@
 {
   "name": "ew-embodied-knowledge-forge",
   "interface": {
-    "displayName": "EW Embodied Knowledge Forge"
+        "displayName": "EW_knowledge_forge"
   },
   "plugins": [
     {
