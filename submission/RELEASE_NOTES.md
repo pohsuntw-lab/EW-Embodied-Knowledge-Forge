@@ -1,9 +1,12 @@
-# Release notes 0.2.0
+# Release notes 0.3.0
 
-Initial public-submission candidate for EW Embodied Knowledge Forge / 具象知識鍛造器.
+EW Embodied Knowledge Forge now delivers a standard, plugin-free Obsidian Vault ZIP by default.
 
-- Converts ChatGPT conversations, generated documents, and uploaded sources into validated `.ewforge` packages for Obsidian.
-- Includes one bilingual knowledge-forging skill with deterministic validation and package-building scripts.
-- Requires no external account, MCP server, API key, or reviewer credentials.
-- Presents English first and Traditional Chinese second in public materials.
-- Companion Obsidian importer is mobile-compatible, offline, conflict-safe, and separately available from the public GitHub repository.
+- Users download, unzip, and open the generated folder as an Obsidian Vault.
+- No Obsidian community plugin, external account, MCP server, or separate API key is required.
+- Every ZIP includes linked Markdown, a knowledge hub, and English plus Traditional Chinese usage guides.
+- Delivery messages include direct instructions for iPhone/iPad, Android, Windows, and macOS.
+- The `.ewforge` format is retained only for explicit legacy or advanced requests.
+
+具象知識鍛造器現在預設輸出標準、免外掛的 Obsidian Vault ZIP。使用者只需下載、解壓縮，再將資料夾作為 Vault 開啟；每個 ZIP 都會內建中英文操作說明。
+

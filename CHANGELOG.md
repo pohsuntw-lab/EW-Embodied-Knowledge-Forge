@@ -1,5 +1,15 @@
 # Changelog / 更新紀錄
 
+## 0.3.0 — 2026-09-04
+
+- Changed the default deliverable from `.ewforge` to a standard Obsidian Vault ZIP.
+- Removed the Obsidian companion plugin requirement from the normal user workflow.
+- Added deterministic ZIP building and integrity validation.
+- Required one top-level Vault folder, a knowledge hub, and linked Markdown notes.
+- Added English and Traditional Chinese instructions inside every generated ZIP.
+- Added direct iPhone, iPad, Android, Windows, and macOS import instructions to delivery responses.
+- Retained `.ewforge` only as an explicitly requested legacy/advanced format.
+
 ## 0.2.0 — 2026-09-04
 
 - Prepared a public skills-only ChatGPT/Codex plugin for the universal Plugins Directory.
@@ -14,8 +24,8 @@
 
 ## 0.1.0 — 2026-09-04
 
-- First bilingual release of EW Embodied Knowledge Forge / 具象知識鍛造器.
-- Added mobile-compatible Obsidian `.ewforge` importer.
-- Added ChatGPT/Codex knowledge-package generator and Vault tools.
+- First bilingual release.
+- Added the original `.ewforge` importer and knowledge-package generator.
 - Added safe-path validation, SHA-256 verification, conflict copies, and optional version backups.
 - Added the official Embodied Worker elephant brand artwork.
+

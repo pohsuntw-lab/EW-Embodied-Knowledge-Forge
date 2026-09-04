@@ -1,8 +1,8 @@
 interface:
   display_name: "EW Embodied Knowledge Forge / 具象知識鍛造器"
-  short_description: "Chat to Obsidian knowledge package / 聊天轉為 Obsidian 知識包"
+  short_description: "Chat to plugin-free Obsidian Vault ZIP / 聊天轉為免外掛 Obsidian Vault ZIP"
   brand_color: "#B89B5E"
-  default_prompt: "Use $obsidian-knowledge-forge to turn this chat or generated document into a bilingual-compatible .ewforge package for Obsidian. 使用 $obsidian-knowledge-forge 將聊天或生成文件整理為可匯入 Obsidian 的知識包。"
+  default_prompt: "Use $obsidian-knowledge-forge to turn this chat or document into a standard Obsidian Vault ZIP with linked Markdown and built-in mobile and desktop instructions. 使用 $obsidian-knowledge-forge 將聊天或文件整理成標準 Obsidian Vault ZIP，內含關聯筆記與手機、電腦使用說明。"
 
 policy:
   allow_implicit_invocation: true

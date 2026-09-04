@@ -1,14 +1,34 @@
 {
-  "name": "ew-obsidian-knowledge-forge",
-  "version": "0.2.0",
-  "description": "Turn ChatGPT conversations and generated documents into a one-click Obsidian knowledge package.",
   "author": {
-    "name": "Embodied Worker Co., Ltd.",
     "email": "pohsun@embodiedworker.com",
+    "name": "Embodied Worker Co., Ltd.",
     "url": "https://www.embodiedworker.com"
   },
+  "description": "Turn ChatGPT conversations and documents into a standard Obsidian Vault ZIP with linked Markdown and built-in usage guides.",
   "homepage": "https://www.embodiedworker.com",
-  "license": "Proprietary",
+  "interface": {
+    "brandColor": "#B89B5E",
+    "capabilities": [
+      "Document organization",
+      "Knowledge graph",
+      "Obsidian export"
+    ],
+    "category": "Productivity",
+    "composerIcon": "./.codex-plugin/assets/composer-icon.svg",
+    "defaultPrompt": [
+      "Turn this conversation into a standard Obsidian Vault ZIP. / 把這段聊天整理成標準 Obsidian Vault ZIP。",
+      "Format these generated documents and export them to Obsidian. / 把生成文件格式化並匯出給 Obsidian。",
+      "Build a linked knowledge graph and include mobile and desktop ZIP instructions. / 建立關聯知識圖譜，並附上手機與電腦 ZIP 使用說明。"
+    ],
+    "developerName": "Embodied Worker Co., Ltd.",
+    "displayName": "EW Knowledge Forge / 具象知識鍛造器",
+    "logo": "./.codex-plugin/assets/logo.jpg",
+    "longDescription": "EW Embodied Knowledge Forge turns ChatGPT conversations and documents into a standard Obsidian Vault ZIP containing structured, linked, versioned Markdown plus English and Traditional Chinese usage guides. Users only download, unzip, and open the folder as a Vault—no Obsidian community plugin or separate OpenAI API key is required. / 具象知識鍛造器由 ChatGPT 負責理解、分類、建立關聯與版本，輸出標準 Obsidian Vault ZIP，內含中英文使用說明。使用者只需下載、解壓縮並將資料夾作為 Vault 開啟，不必安裝 Obsidian 外掛，也無須另外申請 API 金鑰。",
+    "privacyPolicyURL": "https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/blob/main/PRIVACY.md",
+    "shortDescription": "Forge chats for Obsidian",
+    "termsOfServiceURL": "https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/blob/main/TERMS.md",
+    "websiteURL": "https://www.embodiedworker.com"
+  },
   "keywords": [
     "obsidian",
     "knowledge-graph",
@@ -16,26 +36,8 @@
     "document-organization",
     "markdown"
   ],
+  "license": "Proprietary",
+  "name": "ew-obsidian-knowledge-forge",
   "skills": "./skills/",
-  "interface": {
-    "displayName": "EW Knowledge Forge / 具象知識鍛造器",
-    "shortDescription": "Forge chats for Obsidian",
-    "longDescription": "EW Embodied Knowledge Forge turns ChatGPT conversations and generated documents into structured, linked, versioned Markdown inside one portable .ewforge package. ChatGPT performs the knowledge reasoning—extracting concepts, decisions, requirements, evidence, open questions, and relationships—while the offline Obsidian companion validates, previews, backs up, and writes the package into the user's Vault. No separate OpenAI API key or API usage billing is required. / 具象知識鍛造器由 ChatGPT 負責理解、分類、建立關聯與版本，輸出單一 .ewforge；Obsidian 離線外掛負責驗證、預覽、備份與安全寫入 Vault。無須另外申請 OpenAI API 金鑰或支付 API 用量費。",
-    "developerName": "Embodied Worker Co., Ltd.",
-    "category": "Productivity",
-    "capabilities": [
-      "Document organization",
-      "Knowledge graph",
-      "Obsidian export"
-    ],
-    "websiteURL": "https://www.embodiedworker.com",
-    "defaultPrompt": [
-      "Turn this conversation into an EW Knowledge Package for Obsidian. / 把這段聊天整理成 EW Obsidian 知識包。",
-      "Format these generated documents and export them to Obsidian. / 把生成文件格式化並匯出給 Obsidian。",
-      "Link this material to an existing topic and create an incremental package. / 將內容連結到既有主題並產生增量知識包。"
-    ],
-    "brandColor": "#B89B5E",
-    "composerIcon": "./assets/knowledge-forge.png",
-    "logo": "./assets/embodied-worker-logo.png"
-  }
+  "version": "0.3.0"
 }
