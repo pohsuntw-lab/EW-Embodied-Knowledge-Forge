@@ -1,6 +1,6 @@
 {
   "name": "ew-embodied-knowledge-forge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Bilingual mobile-compatible Obsidian importer for EW Knowledge Packages.",
   "main": "main.js",

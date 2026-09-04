@@ -3,7 +3,7 @@
   "format_version": "1.0",
   "package_id": "ewf-20260904T030515Z-f95e936e",
   "created_at": "2026-09-04T03:05:15.993141+00:00",
-  "title": "EW Knowledge Forge Welcome / EW 具象知識鍛造器歡迎包",
+  "title": "EW Knowledge Forge Welcome / 具象知識鍛造器歡迎包",
   "target_root": "EW-Knowledge",
   "package_type": "incremental",
   "notes": [

@@ -16,7 +16,7 @@ const DEFAULT_SETTINGS = {
 
 const I18N = {
   "zh-TW": {
-    name: "EW 具象知識鍛造器",
+    name: "具象知識鍛造器",
     subtitle: "把 ChatGPT 生成文件一鍵匯入 Obsidian 知識圖譜",
     import: "選取 EW 知識包",
     choose: "從『檔案』選擇 .ewforge",
@@ -25,7 +25,7 @@ const I18N = {
     cancel: "取消",
     invalid: "無法讀取知識包",
     complete: "知識匯入完成",
-    settings: "EW 具象知識鍛造器",
+    settings: "具象知識鍛造器",
     language: "介面語言",
     languageDesc: "自動依裝置語言顯示，或固定使用中文／英文。",
     root: "知識根目錄",

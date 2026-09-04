@@ -3,7 +3,7 @@ name: obsidian-knowledge-forge
 description: Organize scattered ChatGPT conversations, uploaded files, and generated documents into a structured Obsidian knowledge graph with atomic notes, metadata, version lineage, bidirectional links, indexes, attachments, and incremental import packages. Use when a user asks to summarize chats into a knowledge base, organize files for Obsidian, connect new material to existing notes, deduplicate versions, or audit an Obsidian vault. Do not claim direct access to a local or mobile vault unless it is actually attached or connected.
 ---
 
-# EW 具象知識鍛造器 / EW Embodied Knowledge Forge
+# EW Embodied Knowledge Forge / 具象知識鍛造器
 
 Transform every meaningful conversation into reusable knowledge, not merely a folder of files.
 

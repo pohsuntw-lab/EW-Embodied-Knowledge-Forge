@@ -1,7 +1,7 @@
 {
   "id": "ew-knowledge-forge",
   "name": "EW Embodied Knowledge Forge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "1.7.2",
   "description": "Import ChatGPT-generated EW Knowledge Packages into a linked Obsidian knowledge graph.",
   "author": "Embodied Worker Co., Ltd.",
