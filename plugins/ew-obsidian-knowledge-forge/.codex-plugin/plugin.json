@@ -1,6 +1,6 @@
 {
   "name": "ew-obsidian-knowledge-forge",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Turn ChatGPT conversations and generated documents into a one-click Obsidian knowledge package.",
   "author": {
     "name": "Embodied Worker Co., Ltd.",
@@ -17,7 +17,6 @@
     "markdown"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "EW Embodied Knowledge Forge / 具象知識鍛造器",
     "shortDescription": "Chat to a one-click Obsidian package / 聊完即產生 Obsidian 知識包。",

@@ -19,9 +19,23 @@ Turn a ChatGPT conversation into one `.ewforge` knowledge package, then choose i
 
 No API key is required. Users do not need to manage YAML, folders, tags, versions, or backlinks manually.
 
+### ChatGPT and Obsidian responsibilities
+
+| Stage | ChatGPT knowledge forging | Obsidian local import |
+| --- | --- | --- |
+| Purpose | Understand the conversation and turn it into durable knowledge | Preserve the finished knowledge inside the user's Vault |
+| Main work | Extract concepts, decisions, requirements, evidence, and open questions | Validate, preview, create files, update versions, and build the local graph |
+| Relationships | Propose hubs, metadata, `up`, `related`, `replaces`, and source links | Materialize those links as Markdown notes and Obsidian backlinks |
+| Output/input | Produces one `.ewforge` package | Reads the user-selected `.ewforge` package |
+| Vault access | No direct access unless the user explicitly supplies notes or an index | Writes only inside the configured knowledge root |
+| Network | Uses the user's existing ChatGPT environment | No network requests |
+| Additional OpenAI API cost | None; no separate API key or API usage billing | None |
+
+ChatGPT is the **knowledge forge**; Obsidian is the **knowledge repository and graph**. The package is the controlled bridge between them.
+
 ### ChatGPT plugin
 
-The complete ChatGPT/Codex skill is included under `chatgpt-plugin/skills/obsidian-knowledge-forge/`. It formats conversations and generated documents, applies the knowledge schema, validates graph links, and produces the one-click `.ewforge` package.
+The complete ChatGPT/Codex skill is included under `plugins/ew-obsidian-knowledge-forge/skills/obsidian-knowledge-forge/`. It formats conversations and generated documents, applies the knowledge schema, validates graph links, and produces the one-click `.ewforge` package.
 
 ### Safety
 
@@ -53,9 +67,23 @@ Reload Obsidian and enable `EW Embodied Knowledge Forge` under **Settings → Co
 
 使用者不需要設定 API 金鑰，也不必自己處理 YAML、資料夾、標籤或雙向連結。
 
+### ChatGPT 與 Obsidian 的流程分工
+
+| 階段 | ChatGPT 知識鍛造 | Obsidian 本機匯入 |
+| --- | --- | --- |
+| 目的 | 理解聊天，把內容提煉為可累積的知識 | 將完成的知識保存在使用者自己的 Vault |
+| 主要工作 | 提取概念、決策、需求、證據與待確認問題 | 驗證、預覽、建立檔案、更新版本並形成圖譜 |
+| 知識關聯 | 規劃主題索引、屬性、`up`、`related`、`replaces` 與來源連結 | 將關聯寫成 Markdown 與 Obsidian 反向連結 |
+| 輸出／輸入 | 產生單一 `.ewforge` 知識包 | 讀取使用者主動選擇的 `.ewforge` |
+| Vault 存取 | 除非使用者提供筆記或索引，否則不直接存取 Vault | 只寫入設定的知識根目錄 |
+| 網路 | 使用使用者原本的 ChatGPT 環境 | 完全不連網 |
+| 額外 OpenAI API 費用 | 不需要另外申請 API 金鑰或支付 API 用量費 | 無 |
+
+簡單來說：ChatGPT 是**知識鍛造場**，Obsidian 是**知識倉庫與知識圖譜**，`.ewforge` 是兩者之間可檢查、可攜帶的橋梁。
+
 ### ChatGPT 外掛
 
-完整知識鍛造技能已放入 `chatgpt-plugin/skills/obsidian-knowledge-forge/`。它會整理聊天與生成文件、套用知識規範、驗證圖譜連結，最後產生可一鍵匯入的 `.ewforge` 知識包。
+完整知識鍛造技能已放入 `plugins/ew-obsidian-knowledge-forge/skills/obsidian-knowledge-forge/`。它會整理聊天與生成文件、套用知識規範、驗證圖譜連結，最後產生可一鍵匯入的 `.ewforge` 知識包。
 
 ### 安全設計
 
@@ -81,7 +109,9 @@ Reload Obsidian and enable `EW Embodied Knowledge Forge` under **Settings → Co
 - `src/main.js` — mobile-compatible Obsidian source / 手機相容原始碼
 - `manifest.json` and `versions.json` — Obsidian release metadata / 發行資訊
 - `styles.css` — touch-friendly bilingual interface / 雙語觸控介面
-- `chatgpt-plugin/` — ChatGPT/Codex plugin with the knowledge-forging skill / 含知識鍛造技能的 ChatGPT 外掛
+- `plugins/ew-obsidian-knowledge-forge/` — public skills-only ChatGPT/Codex plugin / 公開版 ChatGPT 技能外掛
+- `.agents/plugins/marketplace.json` — GitHub marketplace catalog / GitHub 外掛目錄
+- `submission/` — OpenAI review materials / OpenAI 送審資料
 - `docs/EWFORGE-SPEC.md` — portable package format / 知識包格式
 - `examples/` — valid example package and Markdown / 範例
 - `tests/` — package validator and safety tests / 驗證測試
@@ -92,4 +122,3 @@ Reload Obsidian and enable `EW Embodied Knowledge Forge` under **Settings → Co
 The Embodied Worker name, elephant mark, and supplied artwork are trademarks or proprietary brand assets of Embodied Worker Co., Ltd. Their inclusion does not grant reuse rights.
 
 Embodied Worker 名稱、金色大象圖樣及提供的商標素材，均為具象職人股份有限公司的商標或專有品牌資產；收錄於本專案不代表授權第三方使用。
-

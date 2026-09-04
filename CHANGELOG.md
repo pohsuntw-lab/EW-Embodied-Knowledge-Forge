@@ -1,5 +1,11 @@
 # Changelog / 更新紀錄
 
+## 0.2.0 — 2026-09-04
+
+- Prepared a public skills-only ChatGPT/Codex plugin for the universal Plugins Directory.
+- Added a GitHub repo marketplace, bilingual listing, policies, starter prompts, and reviewer test cases.
+- Moved the local Vault MCP prototype out of the public package so the public workflow needs no server, account, or API key.
+
 ## 0.1.1 — 2026-09-04
 
 - Standardized the bilingual name as **EW Embodied Knowledge Forge / 具象知識鍛造器**.

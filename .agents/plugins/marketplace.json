@@ -1,0 +1,20 @@
+{
+  "name": "ew-embodied-knowledge-forge",
+  "interface": {
+    "displayName": "EW Embodied Knowledge Forge"
+  },
+  "plugins": [
+    {
+      "name": "ew-obsidian-knowledge-forge",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ew-obsidian-knowledge-forge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
