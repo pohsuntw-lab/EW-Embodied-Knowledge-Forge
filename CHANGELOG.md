@@ -1,5 +1,11 @@
 # Changelog / 更新紀錄
 
+## 0.4.1 — 2026-09-05
+
+- Replaced the knowledge-network composer icon with the official black-and-gold Embodied Worker elephant logo.
+- Pointed both `composerIcon` and `logo` to the same PNG brand asset in the published plugin package.
+- Synchronized the root and marketplace plugin manifests.
+
 ## 0.4.0 — 2026-09-04
 
 - Renamed the public display name to **EW_knowledge_forge** while preserving the existing internal plugin identity.
