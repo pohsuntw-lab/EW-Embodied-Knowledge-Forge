@@ -14,18 +14,18 @@
       "Obsidian export"
     ],
     "category": "Productivity",
-    "composerIcon": "./.codex-plugin/assets/composer-icon.svg",
+    "composerIcon": "./assets/embodied-worker-logo.png",
     "defaultPrompt": [
       "Guide me step by step to forge a complete project into resumable Obsidian Vault ZIP volumes. / 一步一步引導我把完整專案鍛造成可續作的 Obsidian Vault ZIP 分卷。",
       "Continue my project forge from FORGE-CHECKPOINT.md and process only the next source batch. / 從 FORGE-CHECKPOINT.md 繼續，只處理下一批來源。",
-            "Format these generated documents, build a linked knowledge graph, and export them to Obsidian with ZIP instructions. / 把生成文件格式化、建立關聯知識圖譜，並附 ZIP 使用說明匯出給 Obsidian。"
+      "Format these generated documents, build a linked knowledge graph, and export them to Obsidian with ZIP instructions. / 把生成文件格式化、建立關聯知識圖譜，並附 ZIP 使用說明匯出給 Obsidian。"
     ],
     "developerName": "Embodied Worker Co., Ltd.",
-        "displayName": "EW_knowledge_forge",
-    "logo": "./.codex-plugin/assets/logo.jpg",
+    "displayName": "EW_knowledge_forge",
+    "logo": "./assets/embodied-worker-logo.png",
     "longDescription": "EW Knowledge Forge guides users through complete-project knowledge capture without assuming ChatGPT can see every historical conversation at once. It processes one bounded conversation or document batch at a time, delivers validated incremental Obsidian Vault ZIP volumes, and creates a compact FORGE-CHECKPOINT.md that lets a fresh chat continue safely. Stable source IDs, knowledge IDs, coverage checks, and merge instructions turn scattered project history into one full-fidelity Vault. / 具象知識鍛造器不假設 ChatGPT 能一次看見所有歷史對話，而是引導使用者逐段整理對話與文件；每批交付可合併的 Obsidian Vault ZIP 分卷及可跨新對話續作的 FORGE-CHECKPOINT.md，以穩定來源識別、知識識別、覆蓋檢查與合併說明，逐步完成整個專案知識庫。",
     "privacyPolicyURL": "https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/blob/main/PRIVACY.md",
-        "shortDescription": "Forge projects for Obsidian",
+    "shortDescription": "Forge projects for Obsidian",
     "termsOfServiceURL": "https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/blob/main/TERMS.md",
     "websiteURL": "https://www.embodiedworker.com"
   },
@@ -39,5 +39,5 @@
   "license": "Proprietary",
   "name": "ew-obsidian-knowledge-forge",
   "skills": "./skills/",
-  "version": "0.4.0"
+  "version": "0.4.1"
 }
