@@ -39,5 +39,5 @@
   "license": "Proprietary",
   "name": "ew-obsidian-knowledge-forge",
   "skills": "./skills/",
-  "version": "0.4.1"
+  "version": "0.4.1+codex.logo-fix-20260905"
 }
