@@ -2,7 +2,7 @@
 
 ## 0.4.1 — 2026-09-05
 
-- Replaced the knowledge-network composer icon with the official black-and-gold Embodied Worker elephant logo.
+- Replaced the knowledge-network composer icon with the official gold-background Embodied Worker logo with black elephant linework.
 - Pointed both `composerIcon` and `logo` to the same PNG brand asset in the published plugin package.
 - Synchronized the root and marketplace plugin manifests.
 
