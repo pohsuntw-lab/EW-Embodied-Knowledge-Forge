@@ -1,5 +1,14 @@
 # Changelog / 更新紀錄
 
+## 0.5.0 — 2026-09-11
+
+- Added `enterprise-secure-knowledge-forge` as a second skill in the existing plugin.
+- Added pre-content P0-P3 classification and approved cloud/local routing.
+- Added candidate-to-approved knowledge publication with explicit human approval.
+- Added enterprise governance registers and `FORGE-MANIFEST.json`.
+- Added deterministic enterprise package and representative secret-pattern validation.
+- Documented that a ChatGPT skill is not endpoint DLP and cannot retroactively protect already-visible content.
+
 ## 0.4.1 — 2026-09-05
 
 - Replaced the knowledge-network composer icon with the official gold-background Embodied Worker logo with black elephant linework.

@@ -21,6 +21,12 @@ Turn ChatGPT conversations and documents into a standard Obsidian Vault ZIP. Dow
 
 Every generated ZIP must contain one Vault folder, linked Markdown notes, a hub note, and English plus Traditional Chinese usage guides.
 
+### Enterprise Secure Forge in v0.5.0
+
+Use the separate Enterprise Secure Forge skill for company SOPs, internal documents, confidential-source planning, departmental knowledge, or Enterprise Brain ingestion. It classifies source metadata before requesting content, applies P0-P3 routing, separates candidate from approved knowledge, and produces governance registers plus a Forge Manifest.
+
+The skill is a governance and packaging control. It is not endpoint DLP and cannot retroactively protect content already uploaded to an AI service. P2 content requires a locally sanitized derivative or local-only processing; P3 content is local-only.
+
 ### iPhone and iPad
 
 1. Download the ZIP.
@@ -46,6 +52,12 @@ Every generated ZIP must contain one Vault folder, linked Markdown notes, a hub 
 6. 先閱讀 `使用說明-請先閱讀.md` 或知識首頁，再開啟關係圖譜。
 
 每個 ZIP 都必須包含：單一 Vault 資料夾、相互連結的 Markdown、知識首頁，以及中英文使用說明。
+
+### v0.5.0 企業安全鍛造
+
+公司 SOP、內部文件、機密來源規劃、部門知識或 Enterprise Brain 匯入，使用獨立的 Enterprise Secure Forge Skill。它會在索取文件內容前先登記來源資訊，執行 P0-P3 分級與處理路由，分隔候選知識與正式知識，並產生治理清冊及 Forge Manifest。
+
+此 Skill 是治理與封裝控制，不是端點 DLP，無法追溯保護已上傳給 AI 服務的內容。P2 必須使用本地準備的脫敏副本或完全本地處理；P3 僅能本地處理。
 
 ### iPhone／iPad
 
@@ -76,7 +88,9 @@ ChatGPT 是知識鍛造場；Obsidian 是使用者本機的知識倉庫與知識
 ## Safety
 
 - Generated ZIPs never include `.obsidian`, credentials, or executable payloads.
+- Enterprise packages also exclude original P2/P3 files and tokenization rehydration maps.
 - The graph is validated for required metadata and broken wikilinks before packaging.
+- A deterministic enterprise validator adds structural and representative secret-pattern checks, but a pass is not a confidentiality or compliance certification.
 - ChatGPT never claims that a generated ZIP has already been imported into the user's Vault.
 - ZIP import into an existing Vault is manual; automatic backup and conflict-safe merging are not claimed.
 
@@ -84,6 +98,8 @@ ChatGPT 是知識鍛造場；Obsidian 是使用者本機的知識倉庫與知識
 
 - `plugins/ew-obsidian-knowledge-forge/` — ChatGPT/Codex plugin
 - `skills/obsidian-knowledge-forge/scripts/build_vault_zip.py` — standard Vault ZIP builder
+- `plugins/ew-obsidian-knowledge-forge/skills/enterprise-secure-knowledge-forge/` — governed enterprise skill and validator
+- `docs/enterprise-secure-forge/` — five Codex-ready enterprise specifications
 - `skills/obsidian-knowledge-forge/assets/` — note templates and bilingual ZIP guides
 - `src/main.js` — legacy/experimental `.ewforge` importer retained for compatibility
 - `submission/` — public listing and review materials

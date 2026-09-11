@@ -1,33 +1,27 @@
-# EW_knowledge_forge v0.4.0
+# EW_knowledge_forge v0.5.0
 
-## 核心改版
+## Enterprise Secure Forge
 
-本版將大型專案鍛造從「單次完整處理」改為「可中斷、可跨對話、可驗證的分批鍛造」。目標不是降低知識完整度，而是讓使用者能在 ChatGPT 的可見上下文與連線限制下，逐步完成整個專案知識庫。
+This release adds a separate `enterprise-secure-knowledge-forge` skill while preserving the existing personal and complete-project forge.
 
-## 新增能力
+- Classifies source metadata P0-P3 before requesting source body content.
+- Routes work to approved cloud, locally sanitized cloud, local-only, or blocked states.
+- Keeps P2 originals and rehydration maps local; P3 is local-only.
+- Warns when content is already visible and cannot be protected retroactively.
+- Separates candidate knowledge from human-approved published knowledge.
+- Adds security intake, source, and approval registers plus `FORGE-MANIFEST.json`.
+- Adds deterministic structure and representative secret-pattern validation.
+- States explicitly that the ChatGPT skill is governance and packaging control, not endpoint DLP or compliance certification.
 
-- 三種入口：開始完整專案、從 checkpoint 繼續、只鍛造本次對話或文件。
-- 首次呼叫只進行選擇與界定，不立即啟動大型產檔。
-- 每批只處理一段長對話、一份長文件或一組相關短文件。
-- 新增穩定 `forge_id`、`project_id`、`source_id` 與 `knowledge_id`。
-- 新增 `FORGE-CHECKPOINT.md`，可在全新 ChatGPT 對話續作。
-- 新增 Part00／PartNN／Part99-Final 分卷規則。
-- 新增累計來源清冊、進度頁、分卷清單與完整性收據。
-- 新增 checkpoint 驗證腳本。
-- 圖譜驗證器可根據 checkpoint 驗證跨分卷連結。
-- 失敗時不推進來源狀態、分卷編號或 checkpoint 版本。
-- 新增手機與桌面分卷合併說明。
+## 企業安全知識鍛造
 
-## 修正
+本版在保留既有個人版與完整專案鍛造流程的前提下，新增獨立的 `enterprise-secure-knowledge-forge` Skill。
 
-- 移除外掛 manifest 中目前驗證器不接受的 `interface.brandColorDark` 欄位。
-- 不再把短提示詞、長上下文或網路錯誤混為同一原因。
-- 不再暗示可以一次讀取使用者的全部 ChatGPT 歷史或 Project 內所有對話。
-- 導航頁、checkpoint 與來源清冊不得替代實質知識內容。
-
-## 相容性
-
-- 維持標準 Obsidian Vault ZIP，不需要 Obsidian 社群外掛。
-- 維持 A／B／C 三種精簡比例。
-- 維持既有知識筆記 YAML schema 與穩定 `knowledge_id` 原則。
-- 舊版單一 ZIP 仍可作為 standalone 模式使用。
+- 在索取來源正文前，先以來源資訊完成 P0-P3 分級。
+- 將工作路由為核准雲端、本地脫敏後上雲、完全本地或暫停處理。
+- P2 原文與還原對照表留在本地；P3 僅能本地處理。
+- 如果內容已出現在對話中，明確說明無法追溯保護。
+- 將候選知識與經人員核准的正式知識分開。
+- 新增安全受理、來源、核准清冊及 `FORGE-MANIFEST.json`。
+- 新增結構及代表性機密格式的確定性驗證。
+- 明確說明 ChatGPT Skill 是治理與封裝控制，不是端點 DLP 或合規認證。

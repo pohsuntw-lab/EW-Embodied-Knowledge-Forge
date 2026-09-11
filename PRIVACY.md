@@ -12,6 +12,8 @@ EW Embodied Knowledge Forge is a skills-only ChatGPT/Codex plugin and a companio
 - The Obsidian importer makes no network requests. It reads only the `.ewforge` file selected by the user and writes only inside the configured knowledge root in that Vault.
 - The Obsidian importer contains no analytics, advertising, or telemetry.
 - Users control their exported packages and imported Vault files and may delete them at any time through the products where they are stored.
+- Enterprise Secure Forge asks users to classify source metadata before providing source contents. This workflow does not prevent or reverse disclosure of content already submitted to the selected AI service.
+- P2 originals, P3 content, credentials, and tokenization rehydration maps must remain outside cloud-chat packages. The skill does not provide endpoint, browser, network, or CASB enforcement.
 
 Privacy questions: pohsun@embodiedworker.com
 
@@ -25,5 +27,7 @@ Privacy questions: pohsun@embodiedworker.com
 - Obsidian 匯入器不會連網；只讀取使用者主動選擇的 `.ewforge`，並只寫入該 Vault 內設定的知識根目錄。
 - Obsidian 匯入器不含分析、廣告或遙測。
 - 使用者自行控制匯出的知識包與匯入的 Vault 檔案，可隨時透過相應產品刪除。
+- 企業安全知識鍛造會要求使用者先以來源資訊完成分級，再提供來源內容；此流程無法阻止或撤回已提交給所選 AI 服務的內容。
+- P2 原始內容、P3 內容、登入憑證與代碼還原對照表必須留在雲端對話封裝之外。此 Skill 不提供端點、瀏覽器、網路或 CASB 層的強制攔截。
 
 隱私問題請聯絡：pohsun@embodiedworker.com
