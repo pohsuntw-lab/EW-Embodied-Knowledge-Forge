@@ -1,5 +1,11 @@
 # Changelog / 更新紀錄
 
+## 0.7.1 — 2026-11-02
+
+- Shorten bilingual conversation starters to satisfy the Platform 128-character limit.
+- Add regression checks for every starter and root/package manifest consistency.
+- Preserve all Obsidian, MCP JSON and company/support-link behavior from v0.7.0.
+
 ## 0.7.0 — 2026-11-02
 
 - Align company, support, privacy and terms links with EW AI Coding packaging.

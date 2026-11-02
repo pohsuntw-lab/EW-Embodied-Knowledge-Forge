@@ -1,5 +1,5 @@
-# v0.7.0
+# v0.7.1
 
-Preserve both Obsidian starter workflows. Third starter: Build MCP knowledge-base JSON from my documents. / 將我的文件鍛造成 MCP 知識庫 JSON。
+Fix Platform metadata rejection by keeping all three bilingual conversation starters below 128 characters. Preserve Obsidian, MCP JSON and company/support links.
 
-Add a third skill for structured, governed document-to-JSON knowledge packages with a schema, validation, retrieval metadata and readable review notes. No server deployment or automatic EDC import is included. Enterprise governance remains available.
+修正起始方塊超過 128 字元的上傳錯誤，三個方塊皆已縮短，原功能與連結保留。

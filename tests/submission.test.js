@@ -9,7 +9,7 @@ const skill = fs.readFileSync(path.join(pluginRoot, "skills", "obsidian-knowledg
 const enterpriseSkill = fs.readFileSync(path.join(pluginRoot, "skills", "enterprise-secure-knowledge-forge", "SKILL.md"), "utf8");
 const tests = fs.readFileSync(path.join(root, "submission", "TEST_CASES.md"), "utf8");
 
-assert.equal(manifest.version, "0.7.0");
+assert.equal(manifest.version, "0.7.1");
 assert.equal(manifest.interface.defaultPrompt.length, 3);
 assert.match(manifest.interface.defaultPrompt[0], /Obsidian/);
 assert.match(manifest.interface.defaultPrompt[1], /FORGE-CHECKPOINT/);
@@ -40,3 +40,8 @@ assert.equal(manifest.interface.websiteURL, "https://www.embodiedworker.com");
 assert.equal(manifest.interface.supportURL, "https://www.embodiedworker.com/support");
 assert.equal(manifest.interface.privacyPolicyURL, "https://www.embodiedworker.com/privacy");
 assert.equal(manifest.interface.termsOfServiceURL, "https://www.embodiedworker.com/terms");
+
+for (const [index, prompt] of manifest.interface.defaultPrompt.entries()) {
+  assert.ok(prompt.length <= 128, `Conversation starter ${index + 1} exceeds 128 characters`);
+}
+assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, ".codex-plugin", "plugin.json"), "utf8")), manifest);
