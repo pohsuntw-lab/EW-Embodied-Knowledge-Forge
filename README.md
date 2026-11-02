@@ -8,6 +8,16 @@ Turn ChatGPT conversations and documents into a standard Obsidian Vault ZIP. Dow
 
 把 ChatGPT 對話與文件整理成標準 Obsidian Vault ZIP。下載、解壓縮，再將資料夾作為 Vault 開啟即可；不需要安裝 Obsidian 外掛，也不需要另外申請 API 金鑰。
 
+## v0.7.0 — MCP knowledge forging / MCP 知識鍛造
+
+The first two starter cards retain Obsidian project forging and checkpoint continuation. The third becomes **Build MCP knowledge-base JSON from my documents. / 將我的文件鍛造成 MCP 知識庫 JSON。** Enterprise governance remains available for both outputs.
+
+前兩個方塊保留 Obsidian 文件鍛造與檢查點續作；第三個方塊新增 MCPserver 知識鍛造。PDF、Word、Markdown、文字與其他可驗證讀取的文件，可整理成摘要與全文分離、來源可追溯的知識 JSON，並提供可閱讀 Markdown 覆核文件。
+
+The new `mcp-knowledge-forge` skill bundles a versioned schema, synthetic example, validator and package builder. It creates files for an MCP server importer; it does not build a running server or establish a connection. Candidate records are excluded from the retrieval index. Actual authorization and search indexes belong on the backend.
+
+第三方塊是知識資料產製入口；JSON 並非 MCP 通用標準，後端須依本契約匯入、建立索引並執行權限。尚未核准的內容保留供覆核，不列入正式檢索索引。舊版 Obsidian 操作說明如下，原功能保留。
+
 ## English
 
 ### Default workflow in v0.4.0

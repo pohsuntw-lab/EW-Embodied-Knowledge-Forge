@@ -54,3 +54,8 @@ Embodied Worker Co., Ltd. / 具象職人股份有限公司
 ## Availability
 
 Recommended: all countries and regions supported by the Plugins Directory where the publisher can provide English or Traditional Chinese support. Final selection remains a publisher decision in the submission portal.
+
+
+## v0.7.0 addition / 新增
+
+Third starter: Build MCP knowledge-base JSON from my documents. / 將我的文件鍛造成 MCP 知識庫 JSON。 Existing Obsidian forging and continuation remain available; enterprise governance applies to both output paths. The new skill produces validated EW-contract JSON and review Markdown for backend integration, without deploying an MCP server. / 新增文件轉 MCP 知識 JSON，保留 Obsidian 與企業治理功能；產製文件，不代表已連接伺服器。

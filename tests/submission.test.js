@@ -9,7 +9,12 @@ const skill = fs.readFileSync(path.join(pluginRoot, "skills", "obsidian-knowledg
 const enterpriseSkill = fs.readFileSync(path.join(pluginRoot, "skills", "enterprise-secure-knowledge-forge", "SKILL.md"), "utf8");
 const tests = fs.readFileSync(path.join(root, "submission", "TEST_CASES.md"), "utf8");
 
-assert.equal(manifest.version, "0.5.0");
+assert.equal(manifest.version, "0.7.0");
+assert.equal(manifest.interface.defaultPrompt.length, 3);
+assert.match(manifest.interface.defaultPrompt[0], /Obsidian/);
+assert.match(manifest.interface.defaultPrompt[1], /FORGE-CHECKPOINT/);
+assert.match(manifest.interface.defaultPrompt[2], /MCP knowledge-base JSON/);
+assert.ok(fs.existsSync(path.join(pluginRoot, "skills", "mcp-knowledge-forge", "SKILL.md")));
 assert.equal(manifest.interface.displayName, "EW_knowledge_forge");
 assert.ok(manifest.interface.displayName.length <= 30, "OpenAI plugin name must be at most 30 characters");
 assert.ok(manifest.interface.shortDescription.length <= 30, "OpenAI subtitle must be at most 30 characters");
@@ -30,3 +35,8 @@ for (const required of ["PRIVACY.md", "TERMS.md", "SUPPORT.md", "submission/LIST
 }
 
 console.log("Validated public skills-only plugin and OpenAI submission materials.");
+
+assert.equal(manifest.interface.websiteURL, "https://www.embodiedworker.com");
+assert.equal(manifest.interface.supportURL, "https://www.embodiedworker.com/support");
+assert.equal(manifest.interface.privacyPolicyURL, "https://www.embodiedworker.com/privacy");
+assert.equal(manifest.interface.termsOfServiceURL, "https://www.embodiedworker.com/terms");

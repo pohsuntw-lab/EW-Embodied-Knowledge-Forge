@@ -1,5 +1,14 @@
 # Changelog / 更新紀錄
 
+## 0.7.0 — 2026-11-02
+
+- Align company, support, privacy and terms links with EW AI Coding packaging.
+- Preserve Obsidian start/continue and enterprise governance; replace only the third starter prompt with MCP knowledge JSON forging.
+- Add PDF/Word/Markdown/text/spreadsheet intake guidance, source coverage, separate summary/body, synonyms/questions, relations, legal metadata and explicit approval evidence.
+- Add EW JSON contract 1.0.0, standard-library validator, candidate-safe retrieval-index builder and ZIP packaging.
+- Add backend import/search/full-text integration contract; no running MCP server or deployed connection is claimed.
+- Reconcile the GitHub v0.5.0 baseline with the installed v0.6.3 skills, including living-wiki references, validators and assets, before adding MCP JSON.
+
 ## 0.5.0 — 2026-09-11
 
 - Added `enterprise-secure-knowledge-forge` as a second skill in the existing plugin.
