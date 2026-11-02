@@ -1,21 +1,21 @@
-# Support / 使用支援
+# Support / 支援
 
 ## English
 
-For installation, package validation, import conflicts, or accessibility issues:
+Company website: https://www.embodiedworker.com
 
-- Email: pohsun@embodiedworker.com
-- Website: https://www.embodiedworker.com
-- GitHub issues: https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/issues
+Support and after-sales service: https://www.embodiedworker.com/support
 
-Please do not include API keys, passwords, private Vault contents, or confidential documents in a support request. A redacted sample `.ewforge` package and the plugin version are usually sufficient.
+For enterprise knowledge-base planning, MCPserver integration, Obsidian knowledge governance, Edge AI or industrial-site applications, contact Embodied Worker Co., Ltd. at [pohsun@embodiedworker.com](mailto:pohsun@embodiedworker.com).
 
-## 中文
+For bug reports and feature requests, use [GitHub Issues](https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/issues). Include the plugin version, expected result and actual behavior. Do not attach passwords, API keys or unauthorized confidential information.
 
-若遇到安裝、知識包驗證、匯入衝突或無障礙操作問題，請透過以下方式聯絡：
+## 繁體中文
 
-- 電子郵件：pohsun@embodiedworker.com
-- 官網：https://www.embodiedworker.com
-- GitHub Issues：https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/issues
+公司官網：https://www.embodiedworker.com
 
-請勿在支援請求中附上 API 金鑰、密碼、私人 Vault 內容或機密文件。通常只需提供去識別化的 `.ewforge` 範例與外掛版本。
+支援與售後服務：https://www.embodiedworker.com/support
+
+如需企業知識庫規劃、MCPserver 整合、Obsidian 知識治理、Edge AI 或工業現場應用諮詢，請聯繫具象職人股份有限公司：[pohsun@embodiedworker.com](mailto:pohsun@embodiedworker.com)。
+
+錯誤回報與功能建議請使用 [GitHub Issues](https://github.com/pohsuntw-lab/EW-Embodied-Knowledge-Forge/issues)，提供外掛版本、預期結果與實際情況，請勿附上密碼、API 金鑰或未經授權的機密資訊。

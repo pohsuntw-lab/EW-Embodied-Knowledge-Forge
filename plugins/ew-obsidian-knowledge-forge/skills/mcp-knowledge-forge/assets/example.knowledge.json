@@ -1,0 +1,72 @@
+{
+  "format": "ew-mcp-knowledge",
+  "schema_version": "1.0.0",
+  "knowledge_base_id": "demo-kb",
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "title": "Synthetic training source / 合成教學來源",
+      "filename": "demo.md",
+      "media_type": "text/markdown",
+      "extraction_status": "complete",
+      "sha256": null,
+      "warnings": []
+    }
+  ],
+  "records": [
+    {
+      "knowledge_id": "KN-001",
+      "title": "Record a maintenance observation / 記錄維護觀察",
+      "category": "training",
+      "version": 1,
+      "status": "candidate",
+      "summary": "Record equipment identity, observation time and evidence. / 記錄設備、時間與證據。",
+      "body": "This is a synthetic example, not an enterprise SOP. Record equipment identity, timestamp and observed facts. Separate suggestions from observations. / 本例為合成教學資料，非企業正式 SOP。記錄設備身分、時間及觀察事實，建議與觀察分開。",
+      "content_kind": "proposal",
+      "keywords": [
+        "maintenance",
+        "維護"
+      ],
+      "synonyms": [
+        "保養紀錄"
+      ],
+      "questions": [
+        "如何記錄設備異常？"
+      ],
+      "source_refs": [
+        {
+          "source_id": "SRC-001",
+          "locator": {
+            "kind": "lines",
+            "value": "1-3"
+          }
+        }
+      ],
+      "relations": {
+        "up": [],
+        "related": [],
+        "replaces": []
+      },
+      "validity": {
+        "effective_from": null,
+        "effective_until": null
+      },
+      "legal": null,
+      "access": {
+        "classification": "P0",
+        "audiences": [
+          "training"
+        ],
+        "route": "cloud-approved"
+      },
+      "approval": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "evidence": null
+      },
+      "created_at": "2026-11-02T00:00:00+08:00",
+      "updated_at": "2026-11-02T00:00:00+08:00"
+    }
+  ]
+}

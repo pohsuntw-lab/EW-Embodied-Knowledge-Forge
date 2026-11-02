@@ -1,0 +1,7 @@
+interface:
+  display_name: "MCP Knowledge Forge / MCP 知識鍛造"
+  short_description: "Documents to traceable MCP knowledge JSON / 文件鍛造為知識 JSON"
+  default_prompt: "Use $mcp-knowledge-forge to turn my documents into validated, source-traceable knowledge JSON for an MCP knowledge server. / 將我的文件鍛造成供 MCPserver 匯入的知識庫 JSON。"
+  brand_color: "#B89B5E"
+policy:
+  allow_implicit_invocation: true

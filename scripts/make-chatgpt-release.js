@@ -9,7 +9,10 @@ const dist = path.join(root, "dist");
 fs.mkdirSync(dist, { recursive: true });
 const output = path.join(dist, `ew-embodied-knowledge-forge-chatgpt-${manifest.version}.zip`);
 if (fs.existsSync(output)) fs.unlinkSync(output);
-execFileSync("zip", ["-r", "-9", output, ".", "-x", "*/__pycache__/*", "*.pyc"], {
+for (const policy of ["PRIVACY.md", "TERMS.md", "SUPPORT.md"]) {
+  fs.copyFileSync(path.join(root, policy), path.join(pluginRoot, policy));
+}
+execFileSync("zip", ["-q", "-r", "-9", output, ".codex-plugin", "assets", "skills", "PRIVACY.md", "TERMS.md", "SUPPORT.md", "-x", "*/__pycache__/*", "*.pyc"], {
   cwd: pluginRoot,
   stdio: "inherit",
 });

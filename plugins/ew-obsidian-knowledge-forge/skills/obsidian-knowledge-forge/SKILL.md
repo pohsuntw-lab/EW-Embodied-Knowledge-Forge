@@ -13,6 +13,11 @@ Never imply access to the user's complete ChatGPT history, every conversation in
 
 A short user prompt does not mean the available source corpus is small. Do not blame prompt length or context size for a generic network error without evidence.
 
+## Output routing
+
+Preserve the Obsidian workflow below. When the user selects the third starter card, asks for MCPserver knowledge forging, or requests MCP knowledge JSON, use `../mcp-knowledge-forge/SKILL.md` directly; do not run the Obsidian first-response choices or compression menu. Apply enterprise governance for enterprise sources in either output path. JSON export does not imply a deployed server.
+
+
 ## First response: guide, do not forge
 
 On first invocation, ask only which path the user wants:
@@ -113,3 +118,9 @@ Report:
 State clearly that ZIP files are prepared but not yet imported into Obsidian.
 
 For installation instructions, follow [package-format.md](references/package-format.md). Do not claim control of the user's device.
+
+## Integrated living wiki (v0.6)
+
+During every authorized forge batch, apply [living-wiki.md](references/living-wiki.md). Wiki impact assessment and source-backed topic drafts are part of forging, not a second user task. Preserve existing intake, source fidelity, classification, audience and approval gates. Run `python3 scripts/validate_wiki.py <vault-root>` before ZIP packaging and include its actual result in the receipt. Never claim installation, background maintenance or MCP publication from a generated ZIP.
+
+For an existing Enterprise Brain connection, read [runtime integration](references/enterprise-brain-runtime.md). Use only available authorized tools; otherwise deliver the portable package and report the server integration boundary.

@@ -7,6 +7,11 @@ description: Govern enterprise knowledge forging into auditable Obsidian Vault p
 
 Turn enterprise sources into traceable knowledge without encouraging an upload-first workflow. This skill governs decisions and packaging inside ChatGPT; it is not endpoint DLP and cannot undo disclosure of content already visible to the current AI service.
 
+## MCP JSON output
+
+Keep this governance workflow available even though the third starter card now opens MCP knowledge forging. For MCPserver/JSON output, apply the same classification, routing and named-approval gates, then use `../mcp-knowledge-forge/SKILL.md`. Preserve classification, audience, route and approval evidence in each JSON record. The existing Obsidian output requirements below remain applicable to Vault output. Do not assert that JSON metadata enforces server permissions.
+
+
 ## First response: classify before content
 
 Do not ask the user to upload, paste, quote, or summarize source body content in the first response.
@@ -104,3 +109,9 @@ Report:
 
 State that the ZIP is prepared but not imported, that the skill is not endpoint DLP, and that content already supplied to the AI service was not protected retroactively.
 
+
+## Integrated living wiki (v0.6)
+
+During every authorized forge batch, apply [living-wiki.md](references/living-wiki.md). Wiki impact assessment and source-backed topic drafts are part of forging, not a second user task. Preserve existing intake, source fidelity, classification, audience and approval gates. Run `python3 scripts/validate_wiki.py <vault-root>` before ZIP packaging and include its actual result in the receipt. Never claim installation, background maintenance or MCP publication from a generated ZIP.
+
+For an existing Enterprise Brain connection, read [runtime integration](references/enterprise-brain-runtime.md). Use only available authorized tools; otherwise deliver the portable package and report the server integration boundary.

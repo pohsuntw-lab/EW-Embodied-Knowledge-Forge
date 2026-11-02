@@ -1,0 +1,11 @@
+interface:
+  display_name: "EW Enterprise Secure Forge"
+  short_description: "Governed enterprise knowledge forging"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#B89B5E"
+  default_prompt: "Use $enterprise-secure-knowledge-forge to classify and safely route this enterprise knowledge project before I provide source contents."
+
+policy:
+  allow_implicit_invocation: true
+
